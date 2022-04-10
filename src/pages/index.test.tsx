@@ -11,4 +11,4 @@ describe('<Index />', () => {
   it('contains button', () => {
     expect(body.getByText('Test')).toBeInTheDocument();
   });
-})
+});

@@ -8,19 +8,18 @@ name: Mark stale pull requests
 
 on:
   schedule:
-  - cron: '30 5 * * *'
+    - cron: '30 5 * * *'
 
 jobs:
   stale:
-
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
 
     steps:
-    - uses: actions/stale@v3
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        stale-pr-label: 'Stale 🍞'
-        close-pr-message: 'Closing this pull request from lack of recent activity'
-        days-before-stale: 45
+      - uses: actions/stale@v3
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-pr-label: 'Stale 🍞'
+          close-pr-message: 'Closing this pull request from lack of recent activity'
+          days-before-stale: 45

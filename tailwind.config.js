@@ -5,7 +5,7 @@ const tailwindConfig = {
       colors: {
         green: 'green',
         red: 'red',
-        blue: 'blue'
+        blue: 'blue',
       },
     },
   },
