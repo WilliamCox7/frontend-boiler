@@ -164,20 +164,13 @@ const tailwindConfig = {
       },
     },
     screens: {
-      m: {
-        s: '320px',
-        l: '375px',
-      },
-      t: {
-        s: '640px',
-        m: '768px',
-        l: '1024px',
-      },
-      d: {
-        s: '1024px',
-        m: '1280px',
-        l: '1536px',
-      },
+      ms: '320px',
+      ml: '375px',
+      ts: '640px',
+      tl: '768px',
+      ds: '1024px',
+      dm: '1280px',
+      dl: '1536px',
     },
     spacing: {
       1: '1px',
