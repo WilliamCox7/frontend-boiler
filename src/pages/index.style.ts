@@ -1,11 +1,11 @@
 const styles = {
   main: (test: boolean) => `
     flex justify-center items-center
-    ${test ? 'bg-green' : 'bg-red'}
+    ${test ? 'bg-brand-green' : 'bg-brand-white'}
   `,
 
   button: `
-    bg-blue
+    bg-brand-midnight text-brand-white p-4
   `,
 };
 
