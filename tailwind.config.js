@@ -47,6 +47,13 @@ const tailwindConfig = {
         13: '#1D2225',
       },
     },
+    boxShadow: {
+      xs: '0px 2px 8px 0px rgba(21, 26, 29, 0.08)',
+      s: '0px 8px 12px 0px rgba(21, 26, 29, 0.08)',
+      m: '0px 14px 20px -1px rgba(21, 26, 29, 0.1)',
+      l: '0px 18px 28px -4px rgba(21, 26, 29, 0.14)',
+      xl: '0px 16px 42px -4px rgba(21, 26, 29, 0.24)',
+    },
     fontFamily: {
       circular: ['Circular', 'sans-serif', 'Ariel', 'Helvetica', 'Georgia'],
     },

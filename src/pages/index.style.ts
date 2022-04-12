@@ -5,7 +5,7 @@ const styles = {
   `,
 
   button: `
-    bg-brand-midnight text-brand-white p-4
+    bg-brand-white text-brand-midnight p-4 m-4 shadow-xl
   `,
 };
 
