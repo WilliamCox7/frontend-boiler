@@ -50,6 +50,112 @@ const tailwindConfig = {
     fontFamily: {
       circular: ['Circular', 'sans-serif', 'Ariel', 'Helvetica', 'Georgia'],
     },
+    fontSize: {
+      display: {
+        1: [
+          '84px',
+          {
+            lineHeight: '96px',
+            letterSpacing: '-2px',
+          },
+        ],
+        2: [
+          '72px',
+          {
+            lineHeight: '80px',
+            letterSpacing: '-2px',
+          },
+        ],
+        3: [
+          '56px',
+          {
+            lineHeight: '64px',
+            letterSpacing: '-1px',
+          },
+        ],
+      },
+      header: {
+        1: [
+          '44px',
+          {
+            lineHeight: '48px',
+            letterSpacing: '-1px',
+          },
+        ],
+        2: [
+          '32px',
+          {
+            lineHeight: '40px',
+            letterSpacing: '-1px',
+          },
+        ],
+        3: [
+          '24px',
+          {
+            lineHeight: '32px',
+            letterSpacing: '-1px',
+          },
+        ],
+        4: [
+          '20px',
+          {
+            lineHeight: '24px',
+            letterSpacing: '-1px',
+          },
+        ],
+        5: [
+          '18px',
+          {
+            lineHeight: '24px',
+            letterSpacing: '-1px',
+          },
+        ],
+        6: [
+          '14px',
+          {
+            lineHeight: '20px',
+            letterSpacing: '0px',
+          },
+        ],
+      },
+      body: {
+        xl: [
+          '20px',
+          {
+            lineHeight: '36px',
+            letterSpacing: '0px',
+          },
+        ],
+        xl: [
+          '18px',
+          {
+            lineHeight: '32px',
+            letterSpacing: '0px',
+          },
+        ],
+        xl: [
+          '16px',
+          {
+            lineHeight: '28px',
+            letterSpacing: '0px',
+          },
+        ],
+        xl: [
+          '14px',
+          {
+            lineHeight: '24px',
+            letterSpacing: '0px',
+          },
+        ],
+        xl: [
+          '13px',
+          {
+            lineHeight: '24px',
+            letterSpacing: '0px',
+          },
+        ],
+      },
+    },
   },
   plugins: [],
 };
