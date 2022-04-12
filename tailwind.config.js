@@ -1,6 +1,13 @@
 const tailwindConfig = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    boxShadow: {
+      xs: '0px 2px 8px 0px rgba(21, 26, 29, 0.08)',
+      s: '0px 8px 12px 0px rgba(21, 26, 29, 0.08)',
+      m: '0px 14px 20px -1px rgba(21, 26, 29, 0.1)',
+      l: '0px 18px 28px -4px rgba(21, 26, 29, 0.14)',
+      xl: '0px 16px 42px -4px rgba(21, 26, 29, 0.24)',
+    },
     colors: {
       brand: {
         green: '#34966D',
@@ -46,13 +53,6 @@ const tailwindConfig = {
         12: '#2A343A',
         13: '#1D2225',
       },
-    },
-    boxShadow: {
-      xs: '0px 2px 8px 0px rgba(21, 26, 29, 0.08)',
-      s: '0px 8px 12px 0px rgba(21, 26, 29, 0.08)',
-      m: '0px 14px 20px -1px rgba(21, 26, 29, 0.1)',
-      l: '0px 18px 28px -4px rgba(21, 26, 29, 0.14)',
-      xl: '0px 16px 42px -4px rgba(21, 26, 29, 0.24)',
     },
     fontFamily: {
       circular: ['Circular', 'sans-serif', 'Ariel', 'Helvetica', 'Georgia'],
@@ -133,28 +133,28 @@ const tailwindConfig = {
             letterSpacing: '0px',
           },
         ],
-        xl: [
+        l: [
           '18px',
           {
             lineHeight: '32px',
             letterSpacing: '0px',
           },
         ],
-        xl: [
+        base: [
           '16px',
           {
             lineHeight: '28px',
             letterSpacing: '0px',
           },
         ],
-        xl: [
+        s: [
           '14px',
           {
             lineHeight: '24px',
             letterSpacing: '0px',
           },
         ],
-        xl: [
+        xs: [
           '13px',
           {
             lineHeight: '24px',
@@ -162,6 +162,33 @@ const tailwindConfig = {
           },
         ],
       },
+    },
+    screens: {
+      m: {
+        s: '320px',
+        l: '375px',
+      },
+      t: {
+        s: '640px',
+        m: '768px',
+        l: '1024px',
+      },
+      d: {
+        s: '1024px',
+        m: '1280px',
+        l: '1536px',
+      },
+    },
+    spacing: {
+      1: '1px',
+      xs: '2px',
+      base: '4px',
+      m: '8px',
+      l: '12px',
+      xl: '16px',
+      xl2: '24px',
+      xl3: '32px',
+      xl4: '48px',
     },
   },
   plugins: [],
